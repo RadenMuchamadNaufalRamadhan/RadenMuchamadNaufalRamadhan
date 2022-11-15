@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://kit.fontawesome.com/b67e368fa6.js" crossorigin="anonymous"></script>
+    <link rel="manifest" href="manifest.json" crossorigin="use-credentials">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Aplikasi Resto</title>
+</head>
+<body>
+    <div class="navbar">
+        <img src="./assets/images/logo.png" alt="">
+        <ul>
+            <li><a href="./index.html">Daftar Makanan</a></li>
+            <li><a href="./tentang.html">Tentang Aplikasi ini</a></li>         
+        </ul>
+    </div>
+    <div class="main">
+        <div class="content" id='foodList'>
+            
+        </div>
+        <div class="sidebar" id="cartList">
+            <div class="total">
+                <h1>Total: Rp. 30.000</h1>
+                <hr>
+            </div>
+            <div class="card-order" >
+                <div class="detail">
+                    <img src="./assets/images/blueberry.png" alt="">
+                    <p>Blueberry</p>
+                    <span>3</span>
+                </div>
+                <button><i class="fas fa-trash"></i> Hapus</button>
+            </div>
+            <div class="card-order">
+                <div class="detail">
+                    <img src="./assets/images/chocolate.png" alt="">
+                    <p>Chocolate</p>
+                    <span>3</span>
+
+                </div>
+                <button><i class="fas fa-trash"></i> Hapus</button>
+            </div>
+            <div class="card-order">
+                <div class="detail">
+                    <img src="./assets/images/chocolate-vanilla.png" alt="">
+                    <p>Chocolate and Vanilla</p>
+                    <span>3</span>
+                </div>
+                <button><i class="fas fa-trash"></i> Hapus</button>
+            </div>
+            <div class="card-finish">
+                <button>ORDER SEKARANG</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="js/register.js"></script>
+    <script src="service-worker.js"></script> 
+</body>
+</html>
